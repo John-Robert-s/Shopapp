@@ -1,0 +1,26 @@
+
+#general ingredients
+ingredients = ["oats""lactose-free milk", "egg", "butter", "bread slice", "milk", "parmesan cheese", "cheddar cheese", "spaghetti", "curly pasta", "double cream", ]
+
+#meals with ingredients
+#key:
+#1 oat = 1 gram
+#1lactose-free milk = 1 milliletre
+
+
+toast_and_butter = ["toast", "butter"]
+porridge = ["lactose-free milk", "oats"]
+
+for ingredient in ingredients:
+	counter = 0
+	for items in toast_and_butter:
+		if ingredient == items:
+			counter += 1
+		return counter
+
+print("Out of ")
+
+print(counter)
+
+
+#shopping list
